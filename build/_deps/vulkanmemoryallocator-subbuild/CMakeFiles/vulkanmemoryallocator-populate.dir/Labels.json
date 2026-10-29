@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/vulkanmemoryallocator-populate"
+		},
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/46270d9547d3dceddb7adc44456f9f07/vulkanmemoryallocator-populate.rule"
+		},
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/c0ec5d1f5d0fa4acd7b4492038c10350/vulkanmemoryallocator-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/25031253bfcc775826de71511709427e/vulkanmemoryallocator-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/25031253bfcc775826de71511709427e/vulkanmemoryallocator-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/25031253bfcc775826de71511709427e/vulkanmemoryallocator-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/25031253bfcc775826de71511709427e/vulkanmemoryallocator-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/25031253bfcc775826de71511709427e/vulkanmemoryallocator-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/25031253bfcc775826de71511709427e/vulkanmemoryallocator-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/25031253bfcc775826de71511709427e/vulkanmemoryallocator-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/25031253bfcc775826de71511709427e/vulkanmemoryallocator-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vulkanmemoryallocator-populate"
+		],
+		"name" : "vulkanmemoryallocator-populate"
+	}
+}

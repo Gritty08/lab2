@@ -1,0 +1,1837 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.10.1-1.26427.6+3cd27c13e ╨┤╨╗╤П .NET Framework
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 29.10.2026 18:48:12.
+      
+      ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\4.4.3\\CompilerIdC\\CompilerIdC.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      PrepareForBuild:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
+        ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\4.4.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ╨д╨░╨╣╨╗ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\4.4.3\\CompilerIdC\\CompilerIdC.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      
+      ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+          ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+          ╨Ю╤И╨╕╨▒╨╛╨║: 0
+      
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.76
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/admin/Documents/lab2/build/CMakeFiles/4.4.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:102 (__resolve_linker_path)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/go/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/go/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/VulkanSDK/1.4.357.0/Bin/lld-link.com"
+      - "C:/VulkanSDK/1.4.357.0/Bin/lld-link.exe"
+      - "C:/VulkanSDK/1.4.357.0/Bin/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/SysWOW64/lld-link.com"
+      - "C:/Windows/SysWOW64/lld-link.exe"
+      - "C:/Windows/SysWOW64/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/SysWOW64/wbem/lld-link.com"
+      - "C:/Windows/SysWOW64/wbem/lld-link.exe"
+      - "C:/Windows/SysWOW64/wbem/lld-link"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/SysWOW64/OpenSSH/lld-link.com"
+      - "C:/Windows/SysWOW64/OpenSSH/lld-link.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Go/bin/lld-link.com"
+      - "C:/Program Files/Go/bin/lld-link.exe"
+      - "C:/Program Files/Go/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files (x86)/CMake/bin/lld-link.com"
+      - "C:/Program Files (x86)/CMake/bin/lld-link.exe"
+      - "C:/Program Files (x86)/CMake/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/admin/.dotnet/tools/lld-link.com"
+      - "C:/Users/admin/.dotnet/tools/lld-link.exe"
+      - "C:/Users/admin/.dotnet/tools/lld-link"
+      - "C:/Users/admin/go/bin/lld-link.com"
+      - "C:/Users/admin/go/bin/lld-link.exe"
+      - "C:/Users/admin/go/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/go/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/go/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
+      - "C:/VulkanSDK/1.4.357.0/Bin/mt.com"
+      - "C:/VulkanSDK/1.4.357.0/Bin/mt.exe"
+      - "C:/VulkanSDK/1.4.357.0/Bin/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Windows/SysWOW64/mt.com"
+      - "C:/Windows/SysWOW64/mt.exe"
+      - "C:/Windows/SysWOW64/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/SysWOW64/wbem/mt.com"
+      - "C:/Windows/SysWOW64/wbem/mt.exe"
+      - "C:/Windows/SysWOW64/wbem/mt"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/SysWOW64/OpenSSH/mt.com"
+      - "C:/Windows/SysWOW64/OpenSSH/mt.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/Go/bin/mt.com"
+      - "C:/Program Files/Go/bin/mt.exe"
+      - "C:/Program Files/Go/bin/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files (x86)/CMake/bin/mt.com"
+      - "C:/Program Files (x86)/CMake/bin/mt.exe"
+      - "C:/Program Files (x86)/CMake/bin/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/admin/.dotnet/tools/mt.com"
+      - "C:/Users/admin/.dotnet/tools/mt.exe"
+      - "C:/Users/admin/.dotnet/tools/mt"
+      - "C:/Users/admin/go/bin/mt.com"
+      - "C:/Users/admin/go/bin/mt.exe"
+      - "C:/Users/admin/go/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/go/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/"
+    found: "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.10.1-1.26427.6+3cd27c13e ╨┤╨╗╤П .NET Framework
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 29.10.2026 18:48:13.
+      
+      ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\4.4.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      PrepareForBuild:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
+        ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\4.4.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ╨д╨░╨╣╨╗ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\4.4.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      
+      ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+          ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+          ╨Ю╤И╨╕╨▒╨╛╨║: 0
+      
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.52
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/admin/Documents/lab2/build/CMakeFiles/4.4.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/go/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/VulkanSDK/1.4.357.0/Bin/lld-link.com"
+      - "C:/VulkanSDK/1.4.357.0/Bin/lld-link.exe"
+      - "C:/VulkanSDK/1.4.357.0/Bin/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/SysWOW64/lld-link.com"
+      - "C:/Windows/SysWOW64/lld-link.exe"
+      - "C:/Windows/SysWOW64/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/SysWOW64/wbem/lld-link.com"
+      - "C:/Windows/SysWOW64/wbem/lld-link.exe"
+      - "C:/Windows/SysWOW64/wbem/lld-link"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/SysWOW64/OpenSSH/lld-link.com"
+      - "C:/Windows/SysWOW64/OpenSSH/lld-link.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Go/bin/lld-link.com"
+      - "C:/Program Files/Go/bin/lld-link.exe"
+      - "C:/Program Files/Go/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files (x86)/CMake/bin/lld-link.com"
+      - "C:/Program Files (x86)/CMake/bin/lld-link.exe"
+      - "C:/Program Files (x86)/CMake/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/admin/.dotnet/tools/lld-link.com"
+      - "C:/Users/admin/.dotnet/tools/lld-link.exe"
+      - "C:/Users/admin/.dotnet/tools/lld-link"
+      - "C:/Users/admin/go/bin/lld-link.com"
+      - "C:/Users/admin/go/bin/lld-link.exe"
+      - "C:/Users/admin/go/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/go/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/CMake/sbin/"
+      - "C:/Program Files (x86)/CMake/"
+      - "C:/Program Files/lab1-main/bin/"
+      - "C:/Program Files/lab1-main/sbin/"
+      - "C:/Program Files/lab1-main/"
+    searched_directories:
+      - "C:/VulkanSDK/1.4.357.0/Bin/rc.com"
+      - "C:/VulkanSDK/1.4.357.0/Bin/rc.exe"
+      - "C:/VulkanSDK/1.4.357.0/Bin/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Windows/SysWOW64/rc.com"
+      - "C:/Windows/SysWOW64/rc.exe"
+      - "C:/Windows/SysWOW64/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/SysWOW64/wbem/rc.com"
+      - "C:/Windows/SysWOW64/wbem/rc.exe"
+      - "C:/Windows/SysWOW64/wbem/rc"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/SysWOW64/OpenSSH/rc.com"
+      - "C:/Windows/SysWOW64/OpenSSH/rc.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/Go/bin/rc.com"
+      - "C:/Program Files/Go/bin/rc.exe"
+      - "C:/Program Files/Go/bin/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files (x86)/CMake/bin/rc.com"
+      - "C:/Program Files (x86)/CMake/bin/rc.exe"
+      - "C:/Program Files (x86)/CMake/bin/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/admin/.dotnet/tools/rc.com"
+      - "C:/Users/admin/.dotnet/tools/rc.exe"
+      - "C:/Users/admin/.dotnet/tools/rc"
+      - "C:/Users/admin/go/bin/rc.com"
+      - "C:/Users/admin/go/bin/rc.exe"
+      - "C:/Users/admin/go/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files (x86)/CMake/bin/rc.com"
+      - "C:/Program Files (x86)/CMake/bin/rc.exe"
+      - "C:/Program Files (x86)/CMake/bin/rc"
+      - "C:/Program Files (x86)/CMake/sbin/rc.com"
+      - "C:/Program Files (x86)/CMake/sbin/rc.exe"
+      - "C:/Program Files (x86)/CMake/sbin/rc"
+      - "C:/Program Files (x86)/CMake/rc.com"
+      - "C:/Program Files (x86)/CMake/rc.exe"
+      - "C:/Program Files (x86)/CMake/rc"
+      - "C:/Program Files/lab1-main/bin/rc.com"
+      - "C:/Program Files/lab1-main/bin/rc.exe"
+      - "C:/Program Files/lab1-main/bin/rc"
+      - "C:/Program Files/lab1-main/sbin/rc.com"
+      - "C:/Program Files/lab1-main/sbin/rc.exe"
+      - "C:/Program Files/lab1-main/sbin/rc"
+      - "C:/Program Files/lab1-main/rc.com"
+      - "C:/Program Files/lab1-main/rc.exe"
+      - "C:/Program Files/lab1-main/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/lab1-main"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/CMake"
+        - "C:/Program Files/lab1-main"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-lvyiv4"
+      binary: "C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-lvyiv4"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-lvyiv4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c059e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.10.1-1.26427.6+3cd27c13e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 29.10.2026 18:48:14.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lvyiv4\\cmTC_c059e.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lvyiv4\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_c059e.dir\\Debug\\cmTC_c059e.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_c059e.dir\\Debug\\cmTC_c059e.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_c059e.dir\\Debug\\cmTC_c059e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c059e.dir\\Debug\\\\" /Fd"cmTC_c059e.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files (x86)\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c059e.dir\\Debug\\\\" /Fd"cmTC_c059e.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files (x86)\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lvyiv4\\Debug\\cmTC_c059e.exe" /INCREMENTAL /ILK:"cmTC_c059e.dir\\Debug\\cmTC_c059e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-lvyiv4/Debug/cmTC_c059e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-lvyiv4/Debug/cmTC_c059e.lib" /MACHINE:X64  /machine:x64 cmTC_c059e.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_c059e.vcxproj -> C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lvyiv4\\Debug\\cmTC_c059e.exe
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_c059e.dir\\Debug\\cmTC_c059e.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_c059e.dir\\Debug\\cmTC_c059e.tlog\\cmTC_c059e.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lvyiv4\\cmTC_c059e.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.49
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lvyiv4\\Debug\\cmTC_c059e.exe" /INCREMENTAL /ILK:"cmTC_c059e.dir\\Debug\\cmTC_c059e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-lvyiv4/Debug/cmTC_c059e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-lvyiv4/Debug/cmTC_c059e.lib" /MACHINE:X64  /machine:x64 cmTC_c059e.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36260.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-g2rwsn"
+      binary: "C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-g2rwsn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-g2rwsn'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7c015.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.10.1-1.26427.6+3cd27c13e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 29.10.2026 18:48:15.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g2rwsn\\cmTC_7c015.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g2rwsn\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_7c015.dir\\Debug\\cmTC_7c015.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_7c015.dir\\Debug\\cmTC_7c015.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_7c015.dir\\Debug\\cmTC_7c015.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_7c015.dir\\Debug\\\\" /Fd"cmTC_7c015.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files (x86)\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_7c015.dir\\Debug\\\\" /Fd"cmTC_7c015.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files (x86)\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g2rwsn\\Debug\\cmTC_7c015.exe" /INCREMENTAL /ILK:"cmTC_7c015.dir\\Debug\\cmTC_7c015.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-g2rwsn/Debug/cmTC_7c015.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-g2rwsn/Debug/cmTC_7c015.lib" /MACHINE:X64  /machine:x64 cmTC_7c015.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_7c015.vcxproj -> C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g2rwsn\\Debug\\cmTC_7c015.exe
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_7c015.dir\\Debug\\cmTC_7c015.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_7c015.dir\\Debug\\cmTC_7c015.tlog\\cmTC_7c015.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g2rwsn\\cmTC_7c015.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.52
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g2rwsn\\Debug\\cmTC_7c015.exe" /INCREMENTAL /ILK:"cmTC_7c015.dir\\Debug\\cmTC_7c015.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-g2rwsn/Debug/cmTC_7c015.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-g2rwsn/Debug/cmTC_7c015.lib" /MACHINE:X64  /machine:x64 cmTC_7c015.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36260.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/FindVulkan.cmake:453 (find_path)"
+      - "CMakeLists.txt:57 (find_package)"
+    mode: "path"
+    variable: "Vulkan_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "vulkan/vulkan.h"
+    candidate_directories:
+      - "C:/VulkanSDK/1.4.357.0/include/"
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/go/bin/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/CMake/include/"
+      - "C:/Program Files (x86)/CMake/"
+      - "C:/Program Files/lab1-main/include/"
+      - "C:/Program Files/lab1-main/"
+    found: "C:/VulkanSDK/1.4.357.0/include/"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/lab1-main"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/CMake"
+        - "C:/Program Files/lab1-main"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/FindVulkan.cmake:460 (find_library)"
+      - "CMakeLists.txt:57 (find_package)"
+    mode: "library"
+    variable: "Vulkan_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "vulkan-1"
+    candidate_directories:
+      - "C:/VulkanSDK/1.4.357.0/lib/"
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/go/bin/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/CMake/lib/"
+      - "C:/Program Files (x86)/CMake/"
+      - "C:/Program Files/lab1-main/lib/"
+      - "C:/Program Files/lab1-main/"
+      - "C:/Program Files/lab1-main/bin/"
+      - "/bin/"
+    found: "C:/VulkanSDK/1.4.357.0/Lib/vulkan-1.lib"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/lab1-main"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/CMake"
+        - "C:/Program Files/lab1-main"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/lab1-main/bin"
+        - "C:/Program Files (x86)/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/FindVulkan.cmake:493 (find_program)"
+      - "CMakeLists.txt:57 (find_package)"
+    mode: "program"
+    variable: "Vulkan_GLSLC_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslc"
+    candidate_directories:
+      - "C:/VulkanSDK/1.4.357.0/bin/"
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/go/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/CMake/sbin/"
+      - "C:/Program Files (x86)/CMake/"
+      - "C:/Program Files/lab1-main/bin/"
+      - "C:/Program Files/lab1-main/sbin/"
+      - "C:/Program Files/lab1-main/"
+    searched_directories:
+      - "C:/VulkanSDK/1.4.357.0/bin/glslc.com"
+    found: "C:/VulkanSDK/1.4.357.0/Bin/glslc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/lab1-main"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/CMake"
+        - "C:/Program Files/lab1-main"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/FindVulkan.cmake:501 (find_program)"
+      - "CMakeLists.txt:57 (find_package)"
+    mode: "program"
+    variable: "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslangValidator"
+    candidate_directories:
+      - "C:/VulkanSDK/1.4.357.0/bin/"
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/go/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/CMake/sbin/"
+      - "C:/Program Files (x86)/CMake/"
+      - "C:/Program Files/lab1-main/bin/"
+      - "C:/Program Files/lab1-main/sbin/"
+      - "C:/Program Files/lab1-main/"
+    searched_directories:
+      - "C:/VulkanSDK/1.4.357.0/bin/glslangValidator.com"
+    found: "C:/VulkanSDK/1.4.357.0/Bin/glslangValidator.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/lab1-main"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/CMake"
+        - "C:/Program Files/lab1-main"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/FindGit.cmake:111 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/FetchContent.cmake:1889 (find_package)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/FetchContent.cmake:1622 (__FetchContent_populateSubbuild)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/FetchContent.cmake:2160:EVAL:2 (__FetchContent_doPopulation)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/FetchContent.cmake:2160 (cmake_language)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/FetchContent.cmake:2401 (__FetchContent_Populate)"
+      - "CMakeLists.txt:64 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/go/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/CMake/sbin/"
+      - "C:/Program Files (x86)/CMake/"
+      - "C:/Program Files/lab1-main/bin/"
+      - "C:/Program Files/lab1-main/sbin/"
+      - "C:/Program Files/lab1-main/"
+      - "C:/Users/admin/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/VulkanSDK/1.4.357.0/Bin/git.cmd.com"
+      - "C:/VulkanSDK/1.4.357.0/Bin/git.cmd.exe"
+      - "C:/VulkanSDK/1.4.357.0/Bin/git.cmd"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd"
+      - "C:/Windows/SysWOW64/git.cmd.com"
+      - "C:/Windows/SysWOW64/git.cmd.exe"
+      - "C:/Windows/SysWOW64/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/SysWOW64/wbem/git.cmd.com"
+      - "C:/Windows/SysWOW64/wbem/git.cmd.exe"
+      - "C:/Windows/SysWOW64/wbem/git.cmd"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/SysWOW64/OpenSSH/git.cmd.com"
+      - "C:/Windows/SysWOW64/OpenSSH/git.cmd.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/git.cmd"
+      - "C:/Program Files/dotnet/git.cmd.com"
+      - "C:/Program Files/dotnet/git.cmd.exe"
+      - "C:/Program Files/dotnet/git.cmd"
+      - "C:/Program Files/Go/bin/git.cmd.com"
+      - "C:/Program Files/Go/bin/git.cmd.exe"
+      - "C:/Program Files/Go/bin/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/Program Files (x86)/CMake/bin/git.cmd.com"
+      - "C:/Program Files (x86)/CMake/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/CMake/bin/git.cmd"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/git.cmd.com"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/git.cmd.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/git.cmd"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.com"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd"
+      - "C:/Users/admin/.dotnet/tools/git.cmd.com"
+      - "C:/Users/admin/.dotnet/tools/git.cmd.exe"
+      - "C:/Users/admin/.dotnet/tools/git.cmd"
+      - "C:/Users/admin/go/bin/git.cmd.com"
+      - "C:/Users/admin/go/bin/git.cmd.exe"
+      - "C:/Users/admin/go/bin/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files (x86)/CMake/bin/git.cmd.com"
+      - "C:/Program Files (x86)/CMake/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/CMake/bin/git.cmd"
+      - "C:/Program Files (x86)/CMake/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/CMake/sbin/git.cmd"
+      - "C:/Program Files (x86)/CMake/git.cmd.com"
+      - "C:/Program Files (x86)/CMake/git.cmd.exe"
+      - "C:/Program Files (x86)/CMake/git.cmd"
+      - "C:/Program Files/lab1-main/bin/git.cmd.com"
+      - "C:/Program Files/lab1-main/bin/git.cmd.exe"
+      - "C:/Program Files/lab1-main/bin/git.cmd"
+      - "C:/Program Files/lab1-main/sbin/git.cmd.com"
+      - "C:/Program Files/lab1-main/sbin/git.cmd.exe"
+      - "C:/Program Files/lab1-main/sbin/git.cmd"
+      - "C:/Program Files/lab1-main/git.cmd.com"
+      - "C:/Program Files/lab1-main/git.cmd.exe"
+      - "C:/Program Files/lab1-main/git.cmd"
+      - "C:/Users/admin/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/admin/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/admin/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/VulkanSDK/1.4.357.0/Bin/git.com"
+      - "C:/VulkanSDK/1.4.357.0/Bin/git.exe"
+      - "C:/VulkanSDK/1.4.357.0/Bin/git"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git"
+      - "C:/Windows/SysWOW64/git.com"
+      - "C:/Windows/SysWOW64/git.exe"
+      - "C:/Windows/SysWOW64/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/SysWOW64/wbem/git.com"
+      - "C:/Windows/SysWOW64/wbem/git.exe"
+      - "C:/Windows/SysWOW64/wbem/git"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/SysWOW64/OpenSSH/git.com"
+      - "C:/Windows/SysWOW64/OpenSSH/git.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/git"
+      - "C:/Program Files/dotnet/git.com"
+      - "C:/Program Files/dotnet/git.exe"
+      - "C:/Program Files/dotnet/git"
+      - "C:/Program Files/Go/bin/git.com"
+      - "C:/Program Files/Go/bin/git.exe"
+      - "C:/Program Files/Go/bin/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/lab1-main"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/CMake"
+        - "C:/Program Files/lab1-main"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/glfw-src/CMakeLists.txt:48 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-xot59a"
+      binary: "C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-xot59a"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/admin/Documents/lab2/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-xot59a'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_88c0a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.10.1-1.26427.6+3cd27c13e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 29.10.2026 18:48:30.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xot59a\\cmTC_88c0a.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xot59a\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_88c0a.dir\\Debug\\cmTC_88c0a.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_88c0a.dir\\Debug\\cmTC_88c0a.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_88c0a.dir\\Debug\\cmTC_88c0a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_88c0a.dir\\Debug\\\\" /Fd"cmTC_88c0a.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xot59a\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_88c0a.dir\\Debug\\\\" /Fd"cmTC_88c0a.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xot59a\\src.c"
+          src.c
+        C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xot59a\\src.c(1,10): error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: pthread.h: No such file or directory, [C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xot59a\\cmTC_88c0a.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xot59a\\cmTC_88c0a.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+        
+        ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
+        
+        "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xot59a\\cmTC_88c0a.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ClCompile) -> 
+          C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xot59a\\src.c(1,10): error C1083: ╨Э╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ ╨▓╨║╨╗╤О╤З╨╡╨╜╨╕╨╡: pthread.h: No such file or directory, [C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xot59a\\cmTC_88c0a.vcxproj]
+        
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 1
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.33
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake:142 (try_compile)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "build/_deps/glfw-src/CMakeLists.txt:48 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-9gjrzl"
+      binary: "C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-9gjrzl"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/admin/Documents/lab2/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-9gjrzl'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6718d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.10.1-1.26427.6+3cd27c13e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 29.10.2026 18:48:31.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9gjrzl\\cmTC_6718d.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9gjrzl\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_6718d.dir\\Debug\\cmTC_6718d.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_6718d.dir\\Debug\\cmTC_6718d.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_6718d.dir\\Debug\\cmTC_6718d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6718d.dir\\Debug\\\\" /Fd"cmTC_6718d.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9gjrzl\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6718d.dir\\Debug\\\\" /Fd"cmTC_6718d.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9gjrzl\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9gjrzl\\Debug\\cmTC_6718d.exe" /INCREMENTAL /ILK:"cmTC_6718d.dir\\Debug\\cmTC_6718d.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-9gjrzl/Debug/cmTC_6718d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-9gjrzl/Debug/cmTC_6718d.lib" /MACHINE:X64  /machine:x64 cmTC_6718d.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthreads.lib" [C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9gjrzl\\cmTC_6718d.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9gjrzl\\cmTC_6718d.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+        
+        ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
+        
+        "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9gjrzl\\cmTC_6718d.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В Link) -> 
+          LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthreads.lib" [C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9gjrzl\\cmTC_6718d.vcxproj]
+        
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 1
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.40
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake:142 (try_compile)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.4/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "build/_deps/glfw-src/CMakeLists.txt:48 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-ur9cfk"
+      binary: "C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-ur9cfk"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/admin/Documents/lab2/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-ur9cfk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_79188.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.10.1-1.26427.6+3cd27c13e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 29.10.2026 18:48:31.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ur9cfk\\cmTC_79188.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ur9cfk\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_79188.dir\\Debug\\cmTC_79188.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_79188.dir\\Debug\\cmTC_79188.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_79188.dir\\Debug\\cmTC_79188.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_79188.dir\\Debug\\\\" /Fd"cmTC_79188.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ur9cfk\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_79188.dir\\Debug\\\\" /Fd"cmTC_79188.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ur9cfk\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ur9cfk\\Debug\\cmTC_79188.exe" /INCREMENTAL /ILK:"cmTC_79188.dir\\Debug\\cmTC_79188.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-ur9cfk/Debug/cmTC_79188.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/admin/Documents/lab2/build/CMakeFiles/CMakeScratch/TryCompile-ur9cfk/Debug/cmTC_79188.lib" /MACHINE:X64  /machine:x64 cmTC_79188.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthread.lib" [C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ur9cfk\\cmTC_79188.vcxproj]
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ur9cfk\\cmTC_79188.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) ╤Б ╨╛╤И╨╕╨▒╨║╨╛╨╣.
+        
+        ╨Ю╤И╨╕╨▒╨║╨░ ╤Б╨▒╨╛╤А╨║╨╕.
+        
+        "C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ur9cfk\\cmTC_79188.vcxproj" (╤Ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О) (1) ->
+        (╨ж╨╡╨╗╨╡╨▓╨╛╨╣ ╨╛╨▒╤К╨╡╨║╤В Link) -> 
+          LINK : fatal error LNK1104: ╨╜╨╡ ╤Г╨┤╨░╨╡╤В╤Б╤П ╨╛╤В╨║╤А╤Л╤В╤М ╤Д╨░╨╣╨╗ "pthread.lib" [C:\\Users\\admin\\Documents\\lab2\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ur9cfk\\cmTC_79188.vcxproj]
+        
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 1
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.36
+        
+      exitCode: 1
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:91 (find_program)"
+    mode: "program"
+    variable: "GLSLC_FOUND"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "glslc"
+    candidate_directories:
+      - "C:/VulkanSDK/1.4.357.0/Bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/admin/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/admin/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/.dotnet/tools/"
+      - "C:/Users/admin/go/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/CMake/sbin/"
+      - "C:/Program Files (x86)/CMake/"
+      - "C:/Program Files/lab1-main/bin/"
+      - "C:/Program Files/lab1-main/sbin/"
+      - "C:/Program Files/lab1-main/"
+    searched_directories:
+      - "C:/VulkanSDK/1.4.357.0/Bin/glslc.com"
+    found: "C:/VulkanSDK/1.4.357.0/Bin/glslc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\VulkanSDK\\1.4.357.0\\Bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\.dotnet\\tools"
+        - "C:\\Users\\admin\\go\\bin"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/lab1-main"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/CMake"
+        - "C:/Program Files/lab1-main"
+...

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vk-bootstrap-subbuild/CMakeFiles/vk-bootstrap-populate"
+		},
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vk-bootstrap-subbuild/CMakeFiles/2c2297cff366bd0e42efcb46c77c900b/vk-bootstrap-populate.rule"
+		},
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vk-bootstrap-subbuild/CMakeFiles/d58912cad07b74a76c8698d9cf697605/vk-bootstrap-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vk-bootstrap-subbuild/CMakeFiles/d8f09b7ba9226576c530a2b6dca483e0/vk-bootstrap-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vk-bootstrap-subbuild/CMakeFiles/d8f09b7ba9226576c530a2b6dca483e0/vk-bootstrap-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vk-bootstrap-subbuild/CMakeFiles/d8f09b7ba9226576c530a2b6dca483e0/vk-bootstrap-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vk-bootstrap-subbuild/CMakeFiles/d8f09b7ba9226576c530a2b6dca483e0/vk-bootstrap-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vk-bootstrap-subbuild/CMakeFiles/d8f09b7ba9226576c530a2b6dca483e0/vk-bootstrap-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vk-bootstrap-subbuild/CMakeFiles/d8f09b7ba9226576c530a2b6dca483e0/vk-bootstrap-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vk-bootstrap-subbuild/CMakeFiles/d8f09b7ba9226576c530a2b6dca483e0/vk-bootstrap-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/admin/Documents/lab2/build/_deps/vk-bootstrap-subbuild/CMakeFiles/d8f09b7ba9226576c530a2b6dca483e0/vk-bootstrap-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vk-bootstrap-populate"
+		],
+		"name" : "vk-bootstrap-populate"
+	}
+}
